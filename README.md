@@ -25,10 +25,15 @@ function mint100tokens() public {
 https://explorer-evm.testnet.swisstronik.com/tx/0x4b2f5248e64da82883f9e35158eea1a9e7172018515781e4ce2534edb65336e3
 ```
 
+### Explorer Transfer
+```
+https://explorer-evm.testnet.swisstronik.com/tx/0xca4e2ed7cb5a1e2b0b143b169f0b718f797c1737ef68fa8bb419cfb0c6f5ca49
+```
 
 # Usage
 ```shell
 npx hardhat test
 npx hardhat run scripts/deploy.js
 npx hardhat run scripts/mint.js
+npx hardhat run scripts/transfer.js
 ```
